@@ -75,10 +75,13 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '127.0.0.1',
+	// 'hostname' => '202.149.91.37',
+	// 'username' => 'newSIM',
+	// 'password' => 'kanisKBS107',
+	'hostname' => 'dev.nutacloud.com',
 	'username' => 'root',
-	'password' => '',
-	'database' => 'db_spk',
+	'password' => 'Lentera1nf',
+	'database' => 'nutacloud',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -94,3 +97,49 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+// $db['db_personalia'] = array(
+// 	'dsn'	=> '',
+// 	// 'hostname' => '202.149.91.37',
+// 	// 'username' => 'newSIM',
+// 	// 'password' => 'kanisKBS107',
+// 	'hostname' => 'localhost',
+// 	'username' => 'root',
+// 	'password' => '',
+// 	'database' => 'db_personalia',
+// 	'dbdriver' => 'mysqli',
+// 	'dbprefix' => '',
+// 	'pconnect' => FALSE,
+// 	'db_debug' => (ENVIRONMENT !== 'production'),
+// 	'cache_on' => FALSE,
+// 	'cachedir' => '',
+// 	'char_set' => 'utf8',
+// 	'dbcollat' => 'utf8_general_ci',
+// 	'swap_pre' => '',
+// 	'encrypt' => FALSE,
+// 	'compress' => FALSE,
+// 	'stricton' => FALSE,
+// 	'failover' => array(),
+// 	'save_queries' => TRUE
+// );
+// $db['db_kbs_manufacture'] = array(
+// 	'dsn'	=> '',
+// 	'hostname' => '192.168.104.33',
+// 	'username' => 'newSIM',
+// 	'password' => 'kanisKBS107',
+// 	'database' => 'db_kbs_manufacture',
+// 	'dbdriver' => 'mysqli',
+// 	'dbprefix' => '',
+// 	'pconnect' => FALSE,
+// 	'db_debug' => (ENVIRONMENT !== 'production'),
+// 	'cache_on' => FALSE,
+// 	'cachedir' => '',
+// 	'char_set' => 'utf8',
+// 	'dbcollat' => 'utf8_general_ci',
+// 	'swap_pre' => '',
+// 	'encrypt' => FALSE,
+// 	'compress' => FALSE,
+// 	'stricton' => FALSE,
+// 	'failover' => array(),
+// 	'save_queries' => TRUE
+// );
